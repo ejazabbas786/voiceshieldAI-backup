@@ -25,7 +25,7 @@ from app.multilingual.speech_profile import (
     INDIAN_ACCENT_REGIONS,
 )
 from app.risk.context import CallContext, RuleBasedContextAnalyzer
-from app.risk.scoring import VoiceShieldRiskEngine
+from app.risk.scoring import RiskSignals, VoiceShieldRiskEngine
 from scripts.run_pipeline import extract_call_context
 
 
